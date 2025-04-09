@@ -6,6 +6,7 @@
 - It can be any distro
 - It can be any DE (maybe window manager)
 - START WITH GNOME
+- Use user's input
 - Use other repos:
   - [arch-mathias](https://github.com/mathiaswouters/arch-mathias)
   - [fedora-mathias](https://github.com/mathiaswouters/fedora-mathias)
