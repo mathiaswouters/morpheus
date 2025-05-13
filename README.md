@@ -6,18 +6,15 @@
 - General project that installs and configures a linux system.
 - Use user's input
 
-
 - Implement for following distros:
   - Fedora (**START WITH THIS**)
   - - Arch
   - NixOS
   - ...
 
-
 - It can be any DE (maybe window manager)
   - Gnome (**START WITH THIS**)
   - ...
-
 
 - Use other repos:
   - [arch-mathias](https://github.com/mathiaswouters/arch-mathias)
