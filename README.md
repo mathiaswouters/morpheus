@@ -3,7 +3,9 @@
 **Inspiration:** GitHub [typecraft-dev/crucible](https://github.com/typecraft-dev/crucible)
 
 - General project that installs and configures a linux system.
-- It can be any distro
+
+- Implement for following distros:
+  - ...
 - It can be any DE (maybe window manager)
 - START WITH GNOME
 - Use user's input
