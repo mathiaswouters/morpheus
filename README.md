@@ -16,6 +16,8 @@
 
 - It can be any DE (maybe window manager)
   - Gnome (**START WITH THIS**)
+  - ...
+
 
 - Use other repos:
   - [arch-mathias](https://github.com/mathiaswouters/arch-mathias)
