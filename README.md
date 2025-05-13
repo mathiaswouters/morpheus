@@ -8,7 +8,7 @@
 
 - Implement for following distros:
   - Fedora (**START WITH THIS**)
-  - - Arch
+  - Arch
   - NixOS
   - ...
 
