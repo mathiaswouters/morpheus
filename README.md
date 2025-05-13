@@ -14,6 +14,7 @@
 
 - It can be any DE (maybe window manager)
   - Gnome (**START WITH THIS**)
+  - KDE
   - ...
 
 - Use other repos:
