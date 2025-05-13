@@ -12,7 +12,7 @@
   - NixOS
   - ...
 
-- It can be any DE (maybe window manager)
+- Implement for following desktop environments (maybe window managers)
   - Gnome (**START WITH THIS**)
   - KDE
   - ...
