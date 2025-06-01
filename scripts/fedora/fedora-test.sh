@@ -49,6 +49,15 @@ if [[ -n "$BLOAT_PACKAGES" ]]; then
     echo "$BLOAT_PACKAGES" | xargs sudo dnf remove -y
 fi
 
+# Install dependencies
+echo "###############################"
+echo "### INSTALLING DEPENDENCIES ###"
+echo "###############################"
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+dnf check-update
+
 # Install Common packages
 echo "###############################"
 echo "### INSTALL COMMON PACKAGES ###"
@@ -89,6 +98,15 @@ if [[ -n "$FLATPAK_APPS" ]]; then
 else
     echo "No Flatpak applications found to install."
 fi
+
+# Install Stremio
+echo "#######################"
+echo "### INSTALL STREMIO ###"
+echo "#######################"
+
+(
+  bash "$./install-stremio.sh"
+)
 
 # Setup Wallpaper
 echo "#######################"
