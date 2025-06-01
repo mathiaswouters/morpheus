@@ -36,7 +36,7 @@
 - **Theme**:
 - **Icons**:
 - **Font**:
-	Fira Code or 
+	- Fira Code or 
 - **Cursor**:
 - **Terminal**:
 - **Terminal Font**:
