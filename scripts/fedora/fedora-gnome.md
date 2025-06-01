@@ -37,6 +37,7 @@
 - Blur my Shell
 - Top Bar Organizer
 - User Themes
+- Open Bar
 - ...
 
 ## 5. ...
