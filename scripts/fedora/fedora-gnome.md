@@ -31,7 +31,16 @@
 - Tmux
 - ...
 
-## 4. ...
+## 4. Gnome Extensions
+- App menu is back
+- ArcMenu
+- Blur my Shell
+- Top Bar Organizer
+- User Themes
+- ...
+
+## 5. ...
+
 - **Shell**: Zsh
 - **WM Theme**: ...
 	- Adwaita
