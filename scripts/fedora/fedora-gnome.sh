@@ -26,6 +26,7 @@ fi
 # Define paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_DIR="$SCRIPT_DIR/../../config"
+WALLPAPER_PATH="$CONFIG_DIR/wallpaper.png"
 BLOAT_FILE="$CONFIG_DIR/bloat-fedora"
 COMMON_PACKAGES_FILE="$CONFIG_DIR/packages-common"
 FEDORA_PACKAGES_FILE="$CONFIG_DIR/packages-fedora"
@@ -87,6 +88,25 @@ if [[ -n "$FLATPAK_APPS" ]]; then
     done <<< "$FLATPAK_APPS"
 else
     echo "No Flatpak applications found to install."
+fi
+
+# Setup Wallpaper
+echo "#######################"
+echo "### SETUP WALLPAPER ###"
+echo "#######################"
+
+if [[ -f "$WALLPAPER_PATH" ]]; then
+    # Convert path to URI format
+    URI="file://$WALLPAPER_PATH"
+    
+    # Set both the background and lock screen
+    gsettings set org.gnome.desktop.background picture-uri "$URI"
+    gsettings set org.gnome.desktop.background picture-uri-dark "$URI" 2>/dev/null || true  # GNOME 42+ (dark mode)
+    gsettings set org.gnome.desktop.screensaver picture-uri "$URI"
+
+    echo "Wallpaper set successfully."
+else
+    echo "Wallpaper not found at: $WALLPAPER_PATH"
 fi
 
 # Install Zsh
