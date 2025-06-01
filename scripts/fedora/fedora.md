@@ -1,8 +1,8 @@
 # Fedora Installation Scripts - Guide
 
-1) Update System
+## 1. Update System
 
-2) Uninstall bloat:
+## 2. Uninstall bloat:
 	- mediawriter
 	- gnome-contacts
 	- gnome-weather
@@ -23,14 +23,14 @@
 	- loupe
 	- snapshot
 
-3) Install packages:
+## 3. Install packages:
 	- Gnome Tweaks: `dnf install gnome-tweaks`
 	- Gnome Extensions: `flatpak install flathub org.gnome.Extensions`
 	- Vim
 	- Neovim
- - ...
+ 	- ...
 
-4) ...
+## 4. ...
 
 Icons:
 
