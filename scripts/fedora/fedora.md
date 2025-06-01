@@ -25,17 +25,14 @@
 
 3) ...
 
-Gnome Tweaks
-	- `dnf install gnome-tweaks`
+Gnome Tweaks: `dnf install gnome-tweaks`
 
-Gnome Extensions
-	- Flathub
+Gnome Extensions: Flathub
 
-Icons
+Icons:
 
-Theme
+Theme:
 
-Fonts: Fira Code
-	- `dnf install fira-code-fonts`
+Fonts: Fira Code: `dnf install fira-code-fonts`
 
 Shell: Zsh
