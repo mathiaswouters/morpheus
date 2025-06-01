@@ -23,11 +23,14 @@
 	- loupe
 	- snapshot
 
-3) ...
+3) Install packages:
+	- Gnome Tweaks: `dnf install gnome-tweaks`
+	- Gnome Extensions: `flatpak install flathub org.gnome.Extensions`
+	- Vim
+	- Neovim
+ - ...
 
-Gnome Tweaks: `dnf install gnome-tweaks`
-
-Gnome Extensions: Flathub
+4) ...
 
 Icons:
 
