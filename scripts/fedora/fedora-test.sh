@@ -10,6 +10,19 @@ if [[ "${XDG_CURRENT_DESKTOP:-}" != *"GNOME"* ]]; then
     exit 1
 fi
 
+# Prompt for sudo password upfront and keep-alive in background
+if sudo -v; then
+    # Keep sudo session alive
+    while true; do
+        sudo -n true
+        sleep 60
+        kill -0 "$$" || exit
+    done 2>/dev/null &
+else
+    echo "Failed to obtain sudo privileges."
+    exit 1
+fi
+
 # Define paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_DIR="$SCRIPT_DIR/../../config"
