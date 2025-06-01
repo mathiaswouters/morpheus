@@ -28,15 +28,35 @@
 - Gnome Extensions: `flatpak install flathub org.gnome.Extensions`
 - Vim
 - Neovim
+- Tmux
 - ...
 
 ## 4. ...
 - **Shell**: Zsh
-- **WM Theme**:
-- **Theme**:
-- **Icons**:
+- **WM Theme**: ...
+	- Adwaita
+  	- Marble-blue-dark
+ 	- Dracula
+  	- 
+- **Theme**: ...
+	- Adwaita
+ 	- Catppuccin-Mocha-BL
+	- 
+- **Icons**: ...
+	- WhiteSur-dark
+  	- BeautySolar
+ 	- Deepin2022-Dark
+  	- 
 - **Font**:
-	- Fira Code or 
+	- Cantarell
+  	- Fira Code
+ 	- JetBrains Mono
+  	- 
 - **Cursor**:
-- **Terminal**:
-- **Terminal Font**:
+	- MacOS-Pixel-vrS
+ 	- 
+- **Terminal**: ...
+	- Alacritty or Wezterm or ...
+- **Terminal Font**: ...
+	- Source Code Pro
+ 	- ...
