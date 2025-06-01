@@ -6,7 +6,7 @@ set -o pipefail
 
 # Check if the current desktop environment is GNOME
 if [[ "${XDG_CURRENT_DESKTOP:-}" != *"GNOME"* ]]; then
-    echo "This script is intended for GNOME environments only. Detected: $XDG_CURRENT_DESKTOP"
+    echo "This script is intended for GNOME environments only. Detected: ${XDG_CURRENT_DESKTOP:-<not set>}"
     exit 1
 fi
 
