@@ -38,6 +38,8 @@
 - Top Bar Organizer
 - User Themes
 - Open Bar
+- Dash to Dock
+- Vitals
 - ...
 
 ## 5. ...
